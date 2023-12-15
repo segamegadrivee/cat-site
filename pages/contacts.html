@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/icon.png" type=" image/x-icon">
+    <title>Cat facts</title>
+    <style>
+        body {
+            background-color: #f2f2f2;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header {
+            text-align: center;
+            background-color: #4caf50;
+            color: white;
+            padding: 20px;
+            border-radius: 20px;
+        }
+
+        h1 {
+            font-size: 40px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .post-img {
+            max-width: 400px;
+            max-height: 400px;
+            border-radius: 40px;
+            width: 100%;
+        }
+
+        .post-card {
+            background-color: #fff;
+            border-radius: 20px;
+            margin: 20px 0;
+            padding: 20px;
+            transition: transform 0.2s;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .post-card:hover {
+            transform: scale(1.05);
+        }
+
+        .post-title {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .post-content {
+            font-size: 16px;
+            color: #000000;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #4caf50;
+            color: white;
+            padding: 10px;
+            border-radius: 20px 20px 0 0;
+        }
+
+        nav {
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            background-color: #4caf50;
+            margin-top: 10px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 auto;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+
+        .contact-container {
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .contact-info {
+            background-color: #fff;
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            margin-bottom: 20px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+
+        .contact-info:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .info-title {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .info-details {
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 15px;
+        }
+
+        #map {
+            width: 100%;
+            height: 300px;
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+
+        #map:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+
+
+<body>
+    <header>
+        <h1>Контактна інформація</h1>
+    </header>
+
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="./video.html">Video</a>
+        <a href="./news.html">News</a>
+        <a href="./contacts.html">Contacts</a>
+    </nav>
+
+    <div class="container">
+        <div class="contact-container">
+
+            <div class="contact-info">
+                <h2 class="info-title">Наша адреса</h2>
+                <p class="info-details">вул.Itfriends 10, Kyiv, Ukraine</p>
+
+                <iframe id="map"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d81344.45896657866!2d30.226993560791023!3d50.42220440565151!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cb9f20daf997%3A0xb9ff3dda21067623!2zSVQgRlJJRU5EUyDigI0g0YjQutC-0LvQsCDQv9GA0L7Qs9GA0LDQvNC80LjRgNC-0LLQsNC90LjRjyDvuI8g0LTQu9GPINC00LXRgtC10Lkg0JHQvtGA0YnQsNCz0L7QstC60LA!5e0!3m2!1suk!2sua!4v1702048602832!5m2!1suk!2sua"
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+
+            <div class="contact-info">
+                <h2 class="info-title">Наш телефон</h2>
+                <p class="info-details">
+                    <a href="tel:+380974099753">+380974099753</a>
+                </p>
+            </div>
+
+            <div class="contact-info">
+                <h2 class="info-title">Наш e-mail</h2>
+                <p class="info-details">
+                    <a href="mailto:catsite@gmail.com">catsite@gmail.com</a>
+                </p>
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+    <footer>
+        &copy;2023 Serhii Bohdan
+    </footer>
+
+</body>
+
+</html>
